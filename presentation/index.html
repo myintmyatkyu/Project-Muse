@@ -62,6 +62,8 @@
 <!-- wrapper -->
 <div id="wrapper">
 
+
+
     <!--
         AVAILABLE HEADER CLASSES
 
@@ -93,39 +95,52 @@
         <!-- TOP NAV -->
         <header id="topNav">
             <div class="container">
+                <ul class="pull-right nav nav-pills nav-second-main">
+
+                    <!-- SEARCH -->
+
+                    <!-- /SEARCH -->
+
+                    <!-- QUICK SHOP CART -->
+                    <li>
+                        <a href="login.html">
+                            <i class="fa fa-sign-in"></i>
+                        </a>
+                    </li>
+                    <!-- /QUICK SHOP CART -->
+
+                </ul>
+                <a class="logo pull-left" href="index.html">
+                   <p style="color:grey; font-size:30px; font-weight:bold;">CINEMA</p>
+                </a>
                 <div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
                     <nav class="nav-main">
-
-                        <!--
-                            NOTE
-
-                            For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
-                            Direct Link Example:
-
-                            <li>
-                                <a href="#">HOME</a>
-                            </li>
-                        -->
                         <ul id="topMain" class="nav nav-pills nav-main">
                             <li class="active"><!-- HOME -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="" href="index.html">
                                     HOME
                                 </a>
                             </li>
                             <li class="active"><!-- HOME -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="" href="about-us.html">
                                     ABOUT US
                                 </a>
                             </li>
                             <li class="active"><!-- HOME -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="" href="contact-us.html">
                                     Contact US
+                                </a>
+                            </li>
+                            <li class="active"><!-- HOME -->
+                                <a class="" href="register.html">
+                                    Register
                                 </a>
                             </li>
                         </ul>
 
                     </nav>
                 </div>
+
 
             </div>
         </header>
@@ -143,7 +158,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="assets/images/demo/150x99/27-min.jpg">
 
-                    <img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/c12.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+                    <img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/marvel_doctor_strange-wide.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
 
                     <div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
 
@@ -182,7 +197,7 @@
                 </li>
                 <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 1" data-thumb="assets/images/demo/150x99/27-min.jpg">
 
-                    <img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/c13.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+                    <img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/c12.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
 
                     <div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
 
@@ -225,7 +240,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide title 3" data-thumb="assets/images/demo/150x99/11-min.jpg">
 
-                    <img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/c11.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+                    <img src="assets/images/1x1.png" data-lazyload="assets/images/demo/1200x800/x-men-apocalypse-launch-quad-poster.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
 
                     <div class="overlay dark-4"><!-- dark overlay [1 to 9 opacity] --></div>
 
@@ -254,138 +269,277 @@
 
 
     <!-- Welcome -->
+    <!--<section>-->
+        <!--<div class="container">-->
+            <!--<div class="text-center">-->
+                <!--<h1>Welcome! From <span>Cinema</span>.</h1>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</section>-->
     <section>
         <div class="container">
 
-            <div class="text-center">
-                <h1>Welcome! World Of <span>Smarty</span>.</h1>
-                <h2 class="col-sm-10 col-sm-offset-1 nomargin-bottom weight-400">Clean, fully responsive, extemly flexible multipurpose template that allows you to create any website you like.</h2>
+            <div class="heading-title heading-dotted text-center">
+                <h4>CHECK OUT OUR HIT</h4>
+            </div>
+            <ul class="nav nav-tabs nav-top-border">
+                <li class="active"><a href="#movie" data-toggle="tab">NEW MOVIE</a></li>
+                <li><a href="#new" data-toggle="tab">UP COMING MOVIE</a></li>
+                <li><a href="#cinema" data-toggle="tab">CINEMA</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade in active" id="movie">
+                    <div class="row">
+
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/c3.jpg" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/civil.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title" href="#">
+                                    <h2>AVENGER : Civil WAR</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                    GET INFO
+                                </button>
+                                <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/c11.jpg" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/strange.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title" href="#">
+                                    <h2>DOCTOR STRANGE</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                    GET INFO
+                                </button>
+                                <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/Dawn-of-Justice.png" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/justice.png" alt="" />
+                                </a>
+                                <a class="box-image-title">
+                                    <h2>JUSTICE LEAGUE :DAWN OF JUSTICE</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                    GET INFO
+                                </button>
+                                <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/maxresdefault.jpg" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/tarzan.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title">
+                                    <h2>LEGEND OF TARZAN</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                    GET INFO
+                                </button>
+                                <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/fantasticbig.jpg" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/beast.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title">
+                                    <h2>FANTASTIC BEAST</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                    GET INFO
+                                </button>
+                                <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/x-men-apocalypse-launch-quad-poster.jpg" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/x.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title">
+                                    <h2>X MEN: APOCALYPSE</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                    GET INFO
+                                </button>
+                                <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="new">
+                    <div class="col-md-4">
+
+                        <div class="box-image text-center">
+                            <a class="image-hover lightbox" href="assets/images/demo/1200x800/maxresdefault.jpg" data-plugin-options='{"type":"image"}'>
+                                <img class="img-responsive" src="assets/images/demo/1200x800/tarzan.jpg" alt="" />
+                            </a>
+
+                            <a class="box-image-title">
+                                <h2>LEGEND OF TARZAN</h2>
+                            </a>
+                            <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                GET INFO
+                            </button>
+                            <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="box-image text-center">
+                            <a class="image-hover lightbox" href="assets/images/demo/1200x800/fantasticbig.jpg" data-plugin-options='{"type":"image"}'>
+                                <img class="img-responsive" src="assets/images/demo/1200x800/beast.jpg" alt="" />
+                            </a>
+
+                            <a class="box-image-title">
+                                <h2>FANTASTIC BEAST</h2>
+                            </a>
+                            <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                GET INFO
+                            </button>
+                            <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <div class="box-image text-center">
+                            <a class="image-hover lightbox" href="assets/images/demo/1200x800/x-men-apocalypse-launch-quad-poster.jpg" data-plugin-options='{"type":"image"}'>
+                                <img class="img-responsive" src="assets/images/demo/1200x800/x.jpg" alt="" />
+                            </a>
+
+                            <a class="box-image-title">
+                                <h2>X MEN: APOCALYPSE</h2>
+                            </a>
+                            <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button type="button" class="btn btn-default " data-toggle="modal" data-target="#myModal">
+                                GET INFO
+                            </button>
+                            <a href="booking.html"  class="btn btn-default">BOOK NOW</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="cinema">
+                    <div class="row">
+
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/main.jpg" data-plugin-options='{"type":"image"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/main2.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title" href="#">
+                                    <h2>Cinema 1</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#C-INFO">
+                                    GET INFO
+                                </button>
+                                <a href="cinema-detail.html" class="btn btn-default">CHECK MOVIE</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/main2.jpg" href="" data-plugin-options='{"type":"iframe"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/main2.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title" href="#">
+                                    <h2>Cinema 2</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#C-INFO">
+                                    GET INFO
+                                </button>
+                                <a href="cinema-detail.html" class="btn btn-default">CHECK MOVIE</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+
+                            <div class="box-image text-center">
+                                <a class="image-hover lightbox" href="assets/images/demo/1200x800/main2.jpg" href="" data-plugin-options='{"type":"iframe"}'>
+                                    <img class="img-responsive" src="assets/images/demo/1200x800/main2.jpg" alt="" />
+                                </a>
+
+                                <a class="box-image-title">
+                                    <h2>Cinema 3</h2>
+                                </a>
+                                <p class="font-lato weight-300">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                                <button type="button" class="btn btn-default " data-toggle="modal" data-target="#C-INFO">
+                                    GET INFO
+                                </button>
+                                <a href="cinema-detail.html" class="btn btn-default">CHECK MOVIE</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
             </div>
 
+
+            <!-- pre code -->
         </div>
     </section>
     <!-- Welcome -->
 
+    <section>
+    </section>
+
 
 
     <!-- Services -->
-    <section>
-        <div class="container">
 
-            <div class="row">
 
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="fa fa-tablet"></i>
-                            <h2>FULLY REPOSNIVE</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-document"></i>
-                            <h2>RTL SUPPORT</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-basket"></i>
-                            <h2>MOBILE COMPATIBILE</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-briefcase"></i>
-                            <h2>CLEAN CODE</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-megaphone"></i>
-                            <h2>PREMIUM SLIDERS</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-flag"></i>
-                            <h2>SIMPLE TO USE</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-puzzle"></i>
-                            <h2>LIGHTWEIGHT</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-trophy"></i>
-                            <h2>ADMIN INCLUDED</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-                <div class="col-sm-6 col-md-4 col-lg-4">
-
-                    <div class="box-icon box-icon-left">
-                        <a class="box-icon-title" href="#">
-                            <i class="et-layers"></i>
-                            <h2>PARALLAX</h2>
-                        </a>
-                        <p class="text-muted">Lorem definitiones ei pri per recteque hendrerit scriptorem in errem scribentur mel fastidii.</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
     <!-- /Services -->
 
 
@@ -397,13 +551,13 @@
         <div class="container">
 
             <div class="text-center">
-                <h3 class="nomargin">Smarty Inside</h3>
-                <p class="font-lato weight-300 lead nomargin-top">We can't solve problems by using the same kind of thinking we used when we created them.</p>
+                <h3 class="nomargin">OUR GOALS</h3>
+                <p class="font-lato weight-300 lead nomargin-top">Let's start imagination journey with our service</p>
             </div>
 
 
             <div class="margin-top-80 text-center">
-                <img class="img-responsive wow fadeInUp" data-wow-delay="0.4s" src="assets/images/demo/browsers.png" alt="" />
+                <img class="img-responsive wow fadeInUp" data-wow-delay="0.4s" src="assets/images/demo/1200x800/rsz_c13.jpg" alt="" />
             </div>
         </div>
 
@@ -413,187 +567,18 @@
 
 
     <!-- Info -->
-    <section>
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-6 col-sm-6">
-                    <img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="assets/images/demo/girl_looking-min.jpg" alt="" />
-                </div>
-
-                <div class="col-md-6 col-sm-6">
-                    <header class="margin-bottom-60">
-                        <h2>Smarty Website+Admin+RTL</h2>
-                        <p class="lead font-lato">The most complete template, ever!</p>
-                    </header>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt, nobis quae eos provident quidem. Quaerat expedita dignissimos perferendis, nihil quo distinctio eius architecto reprehenderit maiores.</p>
-                    <p>Similique excepturi voluptates placeat ducimus delectus magnam tempore dolore dolorem quisquam porro modi voluptatum eum saepe dolorum ratione officia sint eos minus.</p>
-
-                    <a class="btn btn-default btn-lg margin-top-30" href="#">EXPLORE SMARTY</a>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
     <!-- /Info -->
 
 
 
     <!-- CALLOUT -->
-    <div class="alert alert-transparent bordered-bottom nomargin">
-        <div class="container">
 
-            <div class="row">
-
-                <div class="col-md-9 col-sm-12"><!-- left text -->
-                    <h3>Call now at <span><strong>+800-565-2390</strong></span> and get 15% discount!</h3>
-                    <p class="font-lato weight-300 size-20 nomargin-bottom">
-                        We truly care about our users and our product.
-                    </p>
-                </div><!-- /left text -->
-
-
-                <div class="col-md-3 col-sm-12 text-right"><!-- right btn -->
-                    <a href="#purchase" rel="nofollow" target="_blank" class="btn btn-primary btn-lg">PURCHASE NOW</a>
-                </div><!-- /right btn -->
-
-            </div>
-
-        </div>
-    </div>
     <!-- /CALLOUT -->
 
 
 
     <!-- FOOTER -->
     <footer id="footer">
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-3">
-                    <!-- Footer Logo -->
-                    <img class="footer-logo" src="assets/images/logo-footer.png" alt="" />
-
-                    <!-- Small Description -->
-                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
-                    <!-- Contact Address -->
-                    <address>
-                        <ul class="list-unstyled">
-                            <li class="footer-sprite address">
-                                PO Box 21132<br>
-                                Here Weare St, Melbourne<br>
-                                Vivas 2355 Australia<br>
-                            </li>
-                            <li class="footer-sprite phone">
-                                Phone: 1-800-565-2390
-                            </li>
-                            <li class="footer-sprite email">
-                                <a href="mailto:support@yourname.com">support@yourname.com</a>
-                            </li>
-                        </ul>
-                    </address>
-                    <!-- /Contact Address -->
-
-                </div>
-
-                <div class="col-md-3">
-
-                    <!-- Latest Blog Post -->
-                    <h4 class="letter-spacing-1">LATEST NEWS</h4>
-                    <ul class="footer-posts list-unstyled">
-                        <li>
-                            <a href="#">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue</a>
-                            <small>29 June 2015</small>
-                        </li>
-                        <li>
-                            <a href="#">Nullam id dolor id nibh ultricies</a>
-                            <small>29 June 2015</small>
-                        </li>
-                        <li>
-                            <a href="#">Duis mollis, est non commodo luctus</a>
-                            <small>29 June 2015</small>
-                        </li>
-                    </ul>
-                    <!-- /Latest Blog Post -->
-
-                </div>
-
-                <div class="col-md-2">
-
-                    <!-- Links -->
-                    <h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
-                    <ul class="footer-links list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Our Clients</a></li>
-                        <li><a href="#">Our Pricing</a></li>
-                        <li><a href="#">Smarty Tour</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                    <!-- /Links -->
-
-                </div>
-
-                <div class="col-md-4">
-
-                    <!-- Newsletter Form -->
-                    <h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
-                    <p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
-
-                    <form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
-									<span class="input-group-btn">
-										<button class="btn btn-success" type="submit">Subscribe</button>
-									</span>
-                        </div>
-                    </form>
-                    <!-- /Newsletter Form -->
-
-                    <!-- Social Icons -->
-                    <div class="margin-top-20">
-                        <a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
-
-                            <i class="icon-facebook"></i>
-                            <i class="icon-facebook"></i>
-                        </a>
-
-                        <a href="#" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
-                            <i class="icon-twitter"></i>
-                            <i class="icon-twitter"></i>
-                        </a>
-
-                        <a href="#" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
-                            <i class="icon-gplus"></i>
-                            <i class="icon-gplus"></i>
-                        </a>
-
-                        <a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
-                            <i class="icon-linkedin"></i>
-                            <i class="icon-linkedin"></i>
-                        </a>
-
-                        <a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="Rss">
-                            <i class="icon-rss"></i>
-                            <i class="icon-rss"></i>
-                        </a>
-
-                    </div>
-                    <!-- /Social Icons -->
-
-                </div>
-
-            </div>
-
-        </div>
-
         <div class="copyright">
             <div class="container">
                 <ul class="pull-right nomargin list-inline mobile-block">
@@ -605,22 +590,135 @@
             </div>
         </div>
     </footer>
+
     <!-- /FOOTER -->
 
 </div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">MOVIE INFO</h4>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <img class="img-responsive" src="assets/images/demo/1200x800/civil.jpg" alt="" />
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">SHOW TIME FOR THIS MOVIE</h2>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>Cinema</th>
+                                <th>Show Time</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Cinema 1</td>
+                                <td>12::00 pm</td>
+                            </tr>
+                            <tr>
+                                <td>Cinema 2</td>
+                                <td>6::00 pm</td>
+                            </tr>
+                            <tr>
+                                <td>Cinema 3</td>
+                                <td>7::00 pm</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <a href="booking.html"  class="btn btn-primary">BOOK NOW</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="C-INFO" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">CINEMA INFO</h4>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <img class="img-responsive" src="assets/images/demo/1200x800/main.jpg" alt="" />
+                <br>
+
+                <p style="margin-top:20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                            <tr>
+                                <th>NAME</th>
+                                <th>TOWNSHIP</th>
+                                <th>TIME</th>
+                                <th>ADDRESS</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Cinema 1</td>
+                                <td>SULE</td>
+                                <td>9::00pm to 12::pm</td>
+                                <td>PO Box 21132, Here Weare St, <br /> SULE, Vivas 2355 MAYANMAR</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <a href="cinema-detail.html" class="btn btn-primary">CHECK MOVIE</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
 <!-- /wrapper -->
 
 
 <!-- SCROLL TO TOP -->
-<a href="#" id="toTop"></a>
-
-
-<!-- PRELOADER -->
-<div id="preloader">
-    <div class="inner">
-        <span class="loader"></span>
-    </div>
-</div><!-- /PRELOADER -->
 
 
 <!-- JAVASCRIPT FILES -->
