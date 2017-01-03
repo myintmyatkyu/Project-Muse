@@ -2,337 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a75de30-64a8-4191-93a3-3fd34893cb5d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/American-Express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Cash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Cirrus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Delta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Diners-Club.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Discover-Network.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Discover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Dollar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Euro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Gift-Card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/JCB.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Maestro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/PayPal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Pound.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Solo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Switch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/Wirecard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/credit.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/eCheck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/cc/payments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/1-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/10-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/12-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/13-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/14-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/15-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/16-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/17-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/18-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/19-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/2-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/20-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/21-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/22-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/23-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/24-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/25-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/26-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/28-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/29-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/3-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/30-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/31-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/32-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/33-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/34-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/35-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/36-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/37-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/38-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/4-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/40-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/5-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/6-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/7-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/8-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/9-min.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/credits.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/back.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/back.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/back_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/drink.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/fit_edit.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/girls.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/neuron.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/neuron.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/neuron.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/neuron_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/officeloop_low.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/siren.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/siren.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/siren.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/video/siren_thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ae.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/af.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ai.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/al.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/am.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/an.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ao.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/as.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/at.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/au.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/aw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ax.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/az.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/be.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/br.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/by.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/bz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ca.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/catalonia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ci.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/co.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/cz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/de.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/dj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/dk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/dm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/do.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/dz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/eg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/eh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/england.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/er.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/es.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/et.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/europeanunion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/fr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ga.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/gy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/hk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/hm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/hn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/hr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ht.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/hu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/id.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/il.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/io.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/iq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ir.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/is.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/it.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/jm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/jo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/jp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ke.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ki.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/km.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ky.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/kz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/la.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/li.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/lv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ly.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ma.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/md.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/me.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ml.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mq.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ms.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/my.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/mz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/na.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/nc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/nf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ni.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/nl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/np.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/nr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/nu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/nz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/om.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/pw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/qa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/re.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/rs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/rw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/scotland.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/si.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/so.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/st.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/sz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/td.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/th.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/to.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/tz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ua.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/um.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/us.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/uy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/uz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/va.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/vc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ve.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/vg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/vi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/vn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/vu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/wales.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/wf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ws.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/ye.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/yt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/za.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/zm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/flags/zw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/misc/shop/girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/misc/shop/girl2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/misc/shop/shop_modal.fla" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/misc/shop/shop_modal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/assets/images/misc/shop/shop_modal_pattern.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/11-min.jpg" afterPath="$PROJECT_DIR$/presentation/assets/images/demo/150x99/11-min.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/about-us.html" afterPath="$PROJECT_DIR$/presentation/about-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/booking.html" afterPath="$PROJECT_DIR$/presentation/booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/cinema-detail.html" afterPath="$PROJECT_DIR$/presentation/cinema-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/contact-us.html" afterPath="$PROJECT_DIR$/presentation/contact-us.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/index.html" afterPath="$PROJECT_DIR$/presentation/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/login.html" afterPath="$PROJECT_DIR$/presentation/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation/register.html" afterPath="$PROJECT_DIR$/presentation/register.html" />
     </list>
     <ignored path="Project-Muse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -353,13 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentation/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1607">
-              <caret line="597" column="6" selection-start-line="597" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+            <state relative-caret-position="138">
+              <caret line="115" column="19" selection-start-line="115" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -371,40 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cinema-detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation/cinema-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#a#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="booking.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation/booking.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="255" column="109" selection-start-line="255" selection-start-column="109" selection-end-line="255" selection-end-column="109" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentation/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
+            <state relative-caret-position="586">
+              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -412,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/presentation/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="689">
+              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -427,10 +76,11 @@
       <file leaf-file-name="about-us.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/presentation/about-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -438,34 +88,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-login-register-2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cinema2/smarty_v112/HTML/page-login-register-2.html">
+      <file leaf-file-name="booking.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="1338" column="30" selection-start-line="1338" selection-start-column="0" selection-end-line="1446" selection-end-column="0" />
+            <state relative-caret-position="540">
+              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-login-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cinema2/smarty_v112/HTML/page-login-1.html">
+      <file leaf-file-name="cinema-detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation/cinema-detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="1239" column="14" selection-start-line="1239" selection-start-column="0" selection-end-line="1339" selection-end-column="0" />
+            <state relative-caret-position="557">
+              <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#a#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-us.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation/contact-us.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -479,13 +141,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/presentation/index.html" />
         <option value="$PROJECT_DIR$/presentation/about-us.html" />
+        <option value="$PROJECT_DIR$/presentation/booking.html" />
+        <option value="$PROJECT_DIR$/presentation/cinema-detail.html" />
         <option value="$PROJECT_DIR$/presentation/contact-us.html" />
         <option value="$PROJECT_DIR$/presentation/login.html" />
         <option value="$PROJECT_DIR$/presentation/register.html" />
-        <option value="$PROJECT_DIR$/presentation/booking.html" />
-        <option value="$PROJECT_DIR$/presentation/index.html" />
-        <option value="$PROJECT_DIR$/presentation/cinema-detail.html" />
       </list>
     </option>
   </component>
@@ -606,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483418786371</updated>
-      <workItem from="1483418787837" duration="15413000" />
+      <workItem from="1483418787837" duration="16074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15413000" />
+    <option name="totallyTimeSpent" value="16074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="23" width="1272" height="873" extended-state="0" />
@@ -742,17 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cinema2/smarty_v112/HTML/page-login-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -763,16 +414,6 @@
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -792,22 +433,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentation/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -816,20 +448,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="255" column="109" selection-start-line="255" selection-start-column="109" selection-end-line="255" selection-end-column="109" />
+        <state relative-caret-position="540">
+          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/presentation/cinema-detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="557">
+          <caret line="130" column="22" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#a#1;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -839,18 +473,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/presentation/index.html">
+    <entry file="file://$PROJECT_DIR$/presentation/contact-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1607">
-          <caret line="597" column="6" selection-start-line="597" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+        <state relative-caret-position="681">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
