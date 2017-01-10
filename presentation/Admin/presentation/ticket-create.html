@@ -58,7 +58,16 @@
                         <i class="main-icon fa fa-pencil-square-o"></i> <span>SALE</span>
                     </a>
                     <ul><!-- submenus -->
-                        <li><a href="cinema.html">TICKET</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                TICKET SALE
+                            </a>
+                            <ul>
+                                <li><a href="ticket.html">TICKET LIST</a></li>
+                                <li><a href="daily-ticket.html">DAILY SALE</a></li>
+                            </ul>
+                        </li>
                         <li><a href="cinema.html">BOOKING LIST</a></li>
                     </ul>
                 </li>
@@ -135,15 +144,106 @@
     </header>
     <!-- /HEADER -->
 
-
-    <!--
-        MIDDLE
-    -->
     <section id="middle">
 
+
+        <!-- page title -->
+        <header id="page-header">
+            <h1>CREATE TICKET</h1>
+            <ol class="breadcrumb">
+                <li><a href="#">Management</a></li>
+                <li class="active">Create Ticket</li>
+            </ol>
+        </header>
+        <!-- /page title -->
+
+        <div class ="row">
+            <div class="col-md-12">
+                <div id="content" class="padding-20">
+
+                    <!-- ------ -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-heading-transparent">
+                            <strong>CREATE TICKET</strong>
+                        </div>
+
+                        <div class="panel-body">
+                            <form class="validate" action="php/contact.php" method="post" enctype="multipart/form-data" data-success="Sent! Thank you!" data-toastr-position="top-right">
+                                <fieldset>
+                                    <!-- required [php action request] -->
+                                    <input type="hidden" name="action" value="contact_send" />
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>TICKET NAME</label>
+                                                <input type="text" name="contact[first_name]" value="GOLD" class="form-control required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>MOVIE NAME</label>
+                                                <select class="form-control select2">
+                                                    <option value="">--- Select MOVIE ---</option>
+                                                    <option value="1">AVENGERS : CIVIL WAR</option>
+                                                    <option value="2">X MEN:APOCALYPSE</option>
+                                                    <option value="3">JUSTICE LEAGUE</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>DATE</label>
+                                                <input type="text" name="contact[first_name]" value="2017-01-09" class="form-control required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>PRICE</label>
+                                                <input type="text" name="contact[first_name]" value="3000Ks" class="form-control required">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>TOTAL TICKET</label>
+                                                    <input type="text" name="contact[first_name]" value="1000" class="form-control required">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                            </form>
+                        </div>
+
+                        <div class="panel-footer">
+                            <a style="margin-left:10px;"href="ticket-create.html" class="btn btn-3d btn-sm btn-green">
+                                <i class="glyphicon glyphicon-floppy-save"></i>
+                                <span>SAVE</span>
+                            </a>
+                            <a style="margin-left:10px;"href="ticket.html" class="btn btn-3d btn-sm btn-red">
+                                <i class="glyphicon glyphicon-arrow-left"></i>
+                                <span>BACK</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /----- -->
+
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- /MIDDLE -->
 
 </div>
 

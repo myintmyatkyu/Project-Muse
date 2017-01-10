@@ -58,7 +58,16 @@
                         <i class="main-icon fa fa-pencil-square-o"></i> <span>SALE</span>
                     </a>
                     <ul><!-- submenus -->
-                        <li><a href="cinema.html">TICKET</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                TICKET SALE
+                            </a>
+                            <ul>
+                                <li><a href="ticket.html">TICKET LIST</a></li>
+                                <li><a href="daily-ticket.html">DAILY SALE</a></li>
+                            </ul>
+                        </li>
                         <li><a href="cinema.html">BOOKING LIST</a></li>
                     </ul>
                 </li>
@@ -140,10 +149,10 @@
 
         <!-- page title -->
         <header id="page-header">
-            <h1>CREATE MOVIE</h1>
+            <h1>UPDATE MOVIE</h1>
             <ol class="breadcrumb">
                 <li><a href="#">Management</a></li>
-                <li class="active">Create Movie</li>
+                <li class="active">Update Movie</li>
             </ol>
         </header>
         <!-- /page title -->
@@ -155,7 +164,7 @@
                     <!-- ------ -->
                     <div class="panel panel-default">
                         <div class="panel-heading panel-heading-transparent">
-                            <strong>CREATE MOVIE</strong>
+                            <strong>UPDATE MOVIE</strong>
                         </div>
 
                         <div class="panel-body">
@@ -210,7 +219,7 @@
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12 col-sm-12">
-                                                <label>Cinema *</label>
+                                                <label>Remarks *</label>
                                                 <div class="fancy-file-upload fancy-file-info">
                                                     <i class="fa fa-upload"></i>
                                                     <input type="file" class="form-control" name="contact[attachment]" onchange="jQuery(this).next('input').val(this.value);" />

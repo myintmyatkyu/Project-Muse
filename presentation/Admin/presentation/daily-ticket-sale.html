@@ -149,10 +149,10 @@
 
         <!-- page title -->
         <header id="page-header">
-            <h1>CREATE MOVIE</h1>
+            <h1>DAILY TICKET SALE</h1>
             <ol class="breadcrumb">
                 <li><a href="#">Management</a></li>
-                <li class="active">Create Movie</li>
+                <li class="active">Daily Ticket Sale</li>
             </ol>
         </header>
         <!-- /page title -->
@@ -164,7 +164,7 @@
                     <!-- ------ -->
                     <div class="panel panel-default">
                         <div class="panel-heading panel-heading-transparent">
-                            <strong>CREATE MOVIE</strong>
+                            <strong>DAILY TICKET SALE</strong>
                         </div>
 
                         <div class="panel-body">
@@ -176,32 +176,66 @@
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12 col-sm-12">
-                                                <label>Movie NAME *</label>
-                                                <input type="text" name="contact[first_name]" value="AVENGERS : CIVIL WAR" class="form-control required">
+                                                <label>TICKET ID</label>
+                                                <select class="form-control select2">
+                                                    <option value="">--- Select TICKET ---</option>
+                                                    <option value="1">SILVER</option>
+                                                    <option value="2">GOLD</option>
+                                                    <option value="3">PLATINUM</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12 col-sm-12">
-                                                <label>Language*</label>
-                                                <input type="text" name="contact[first_name]" value="English" class="form-control required">
+                                                <label>MOVIE ID</label>
+                                                <select class="form-control select2">
+                                                    <option value="">--- Select MOVIE ---</option>
+                                                    <option value="1">AVENGERS : CIVIL WAR</option>
+                                                    <option value="2">X MEN:APOCALYPSE</option>
+                                                    <option value="3">JUSTICE LEAGUE</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12 col-sm-12">
-                                                <label>Duration*</label>
-                                                <input type="text" name="contact[first_name]" value="2 hr" class="form-control required">
+                                                <label>CUSTOMER NAME</label>
+                                                <input type="text" name="contact[first_name]" value="JOHN DOE" class="form-control required">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12 col-sm-12">
-                                                <label>Cast*</label>
-                                                <input type="text" name="contact[first_name]" value="Benedict Cumberbatch, Tilda Swanton" class="form-control required">
+                                                <label>CUSTOMER PHONE (OPTIONAL)</label>
+                                                <input type="text" name="contact[first_name]" value="097878878" class="form-control required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>BOOKING ID (OPTIONAL)</label>
+                                                <input type="text" name="contact[first_name]" value="0098989" class="form-control required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>DATE</label>
+                                                <input type="text" name="contact[first_name]" value="2017-01-09" class="form-control required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group">
+                                            <div class="col-md-12 col-sm-12">
+                                                <label>PRICE</label>
+                                                <input type="text" name="contact[first_name]" value="3000Ks" class="form-control required">
                                             </div>
                                         </div>
                                     </div>
@@ -209,23 +243,9 @@
                                     <div class="row">
                                         <div class="form-group">
                                             <div class="col-md-12 col-sm-12">
-                                                <label>Remarks *</label>
-                                                <textarea name="contact[experience]" rows="11"  class="form-control required">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                                </textarea>
-                                            </div>
+                                                <label>TOTAL TICKET/label>
+                                                    <input type="text" name="contact[first_name]" value="1000" class="form-control required">
 
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-group">
-                                            <div class="col-md-12 col-sm-12">
-                                                <label>Cinema *</label>
-                                                <div class="fancy-file-upload fancy-file-info">
-                                                    <i class="fa fa-upload"></i>
-                                                    <input type="file" class="form-control" name="contact[attachment]" onchange="jQuery(this).next('input').val(this.value);" />
-                                                    <input type="text" class="form-control" placeholder="no file selected" readonly="" />
-                                                    <span class="button">Upload Image</span>
-                                                </div>
                                             </div>
 
                                         </div>
@@ -236,11 +256,11 @@
                         </div>
 
                         <div class="panel-footer">
-                            <a style="margin-left:10px;"href="cinema-create.html" class="btn btn-3d btn-sm btn-green">
+                            <a style="margin-left:10px;"href="ticket-create.html" class="btn btn-3d btn-sm btn-green">
                                 <i class="glyphicon glyphicon-floppy-save"></i>
-                                <span>SAVE</span>
+                                <span>SALE</span>
                             </a>
-                            <a style="margin-left:10px;"href="movie.html" class="btn btn-3d btn-sm btn-red">
+                            <a style="margin-left:10px;"href="ticket.html" class="btn btn-3d btn-sm btn-red">
                                 <i class="glyphicon glyphicon-arrow-left"></i>
                                 <span>BACK</span>
                             </a>
