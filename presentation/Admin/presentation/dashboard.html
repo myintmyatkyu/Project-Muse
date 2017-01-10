@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Cinema Admin</title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css" />
+
+    <!-- CORE CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- THEME CSS -->
+    <link href="../assets/css/essentials.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+</head>
+<!--
+    .boxed = boxed version
+-->
+<body>
+
+
+<!-- WRAPPER -->
+<div id="wrapper">
+
+    <aside id="aside">
+
+        <nav id="sideNav"><!-- MAIN MENU -->
+            <ul class="nav nav-list">
+                <li><!-- dashboard -->
+                    <a class="dashboard" href="dashboard.html"><!-- warning - url used by default by ajax (if eneabled) -->
+                        <i class="main-icon fa fa-dashboard"></i> <span>DASHBOARD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-menu-arrow pull-right"></i>
+                        <i class="main-icon fa fa-pencil-square-o"></i> <span>MANAGE</span>
+                    </a>
+                    <ul><!-- submenus -->
+                        <li><a href="cinema.html">CINEMA</a></li>
+                        <li><a href="movie.html">MOVIE</a></li>
+                        <li><a href="movie-shedule.html">MOVIE SHEDULE</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-menu-arrow pull-right"></i>
+                        <i class="main-icon fa fa-pencil-square-o"></i> <span>SALE</span>
+                    </a>
+                    <ul><!-- submenus -->
+                        <li><a href="cinema.html">TICKET</a></li>
+                        <li><a href="cinema.html">BOOKING LIST</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+        <span id="asidebg"><!-- aside fixed background --></span>
+    </aside>
+    <!-- /ASIDE -->
+
+
+    <!-- HEADER -->
+    <header id="header">
+
+        <!-- Mobile Button -->
+        <button id="mobileMenuBtn"></button>
+
+        <!-- Logo -->
+				<span class="logo pull-left">
+                    <logo style="font-size:20px; font-weight:bold;color:white;">CINEMA </logo>
+                    <!--<img src="assets/images/logo_light.png" alt="admin panel" height="35" />-->
+				</span>
+
+        <form method="get" action="page-search.html" class="search pull-left hidden-xs">
+            <input type="text" class="form-control" name="k" placeholder="Search for something..." />
+        </form>
+
+        <nav>
+
+            <!-- OPTIONS LIST -->
+            <ul class="nav pull-right">
+
+                <!-- USER OPTIONS -->
+                <li class="dropdown pull-left">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img class="user-avatar" alt="" src="../assets/images/noavatar.jpg" height="34" />
+								<span class="user-name">
+									<span class="hidden-xs">
+										John Doe <i class="fa fa-angle-down"></i>
+									</span>
+								</span>
+                    </a>
+                    <ul class="dropdown-menu hold-on-click">
+                        <li><!-- my calendar -->
+                            <a href="calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+                        </li>
+                        <li><!-- my inbox -->
+                            <a href="#"><i class="fa fa-envelope"></i> Inbox
+                                <span class="pull-right label label-default">0</span>
+                            </a>
+                        </li>
+                        <li><!-- settings -->
+                            <a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
+                        </li>
+
+                        <li class="divider"></li>
+
+                        <li><!-- lockscreen -->
+                            <a href="page-lock.html"><i class="fa fa-lock"></i> Lock Screen</a>
+                        </li>
+                        <li><!-- logout -->
+                            <a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- /USER OPTIONS -->
+
+            </ul>
+            <!-- /OPTIONS LIST -->
+
+        </nav>
+
+    </header>
+    <!-- /HEADER -->
+
+
+    <!--
+        MIDDLE
+    -->
+    <section id="middle">
+        <div id="content" class="dashboard padding-20">
+            <!-- BOXES -->
+            <div class="row">
+
+                <!-- Feedback Box -->
+                <div class="col-md-3 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box danger"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4><a href="#">9866 Customer</a></h4>
+                            <small class="block">300 New Today</small>
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+
+                <!-- Profit Box -->
+                <div class="col-md-3 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box warning"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4>$10M Profit</h4>
+                            <small class="block">1.2 M Profit for this month</small>
+                            <i class="fa fa-bar-chart-o"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+
+                <!-- Orders Box -->
+                <div class="col-md-3 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box default"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4>58944 Booking</h4>
+                            <small class="block">1800 For This Month</small>
+                            <i class="fa fa-shopping-cart"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+
+                <!-- Online Box -->
+                <div class="col-md-3 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box success"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4>3485 Regular</h4>
+                            <small class="block">1088 new customer for this month</small>
+                            <i class="fa fa-globe"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+
+            </div>
+            <!-- /BOXES -->
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div id="panel-chartjs-1" class="panel panel-default">
+
+                        <div class="panel-heading">
+
+									<span class="elipsis"><!-- panel title -->
+										<strong>Customer Growth</strong>
+									</span>
+
+                            <!-- right options -->
+                            <ul class="options pull-right list-inline">
+                                <li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
+                                <li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
+                                <li><a href="#" class="opt panel_close" data-confirm-title="Confirm" data-confirm-message="Are you sure you want to remove this panel?" data-toggle="tooltip" title="Close" data-placement="bottom"><i class="fa fa-times"></i></a></li>
+                            </ul>
+                            <!-- /right options -->
+
+                        </div>
+
+                        <!-- panel content -->
+                        <div class="panel-body">
+
+                            <canvas class="chartjs fullwidth height-300" id="lineChartCanvas" width="547" height="300"></canvas>
+
+                        </div>
+                        <!-- /panel content -->
+
+                        <!-- panel footer -->
+                        <div class="panel-footer"></div>
+                        <!-- /panel footer -->
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="panel-graphs-flot-1" class="panel panel-default">
+
+                        <div class="panel-heading">
+
+									<span class="elipsis"><!-- panel title -->
+										<strong>Cinema Income Growth Graph</strong>
+									</span>
+
+                            <!-- right options -->
+                            <ul class="options pull-right list-inline">
+                                <li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
+                                <li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
+                                <li><a href="#" class="opt panel_close" data-confirm-title="Confirm" data-confirm-message="Are you sure you want to remove this panel?" data-toggle="tooltip" title="Close" data-placement="bottom"><i class="fa fa-times"></i></a></li>
+                            </ul>
+                            <!-- /right options -->
+
+
+                        </div>
+
+                        <!-- panel content -->
+                        <div class="panel-body nopadding">
+
+                            <div id="flot-pie" class="flot-chart"><!-- FLOT CONTAINER --></div>
+
+                        </div>
+                        <!-- /panel content -->
+                        <div class="panel-footer" style="height:110px;">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <!--
+                        PANEL CLASSES:
+                            panel-default
+                            panel-danger
+                            panel-warning
+                            panel-info
+                            panel-success
+
+                        INFO: 	panel collapse - stored on user localStorage (handled by app.js _panels() function).
+                                All pannels should have an unique ID or the panel collapse status will not be stored!
+                    -->
+                    <div id="panel-3" class="panel panel-default">
+                        <div class="panel-heading">
+									<span class="title elipsis">
+										<strong>RECENT ACTIVITIES</strong> <!-- panel title -->
+									</span>
+                        </div>
+
+                        <!-- panel content -->
+                        <div class="panel-body">
+
+                            <ul class="list-unstyled list-hover slimscroll height-300" data-slimscroll-visible="true">
+
+                                <li>
+                                    <span class="label label-danger"><i class="fa fa-bell-o size-15"></i></span>
+                                    Urgent task: add new theme to fastAdmin
+                                </li>
+
+                                <li>
+                                    <span class="label label-success"><i class="fa fa-user size-15"></i></span>
+                                    <a href="#">5 pending memership</a>
+                                </li>
+
+                                <li>
+                                    <span class="label label-warning"><i class="fa fa-comment size-15"></i></span>
+                                    <a href="#">24 New comments that needs your approval</a>
+                                </li>
+
+                                <li>
+                                    <span class="label label-default"><i class="fa fa-briefcase size-15"></i></span>
+                                    No work for tomorrow &ndash; everyone is free!
+                                </li>
+
+                                <li>
+                                    <span class="label label-info"><i class="fa fa-shopping-cart size-15"></i></span>
+                                    You have new 3 orders unprocessed
+                                </li>
+
+                                <li>
+                                    <span class="label label-success"><i class="fa fa-bar-chart-o size-15"></i></span>
+                                    Generate the finance report for the previous year
+                                </li>
+
+                                <li>
+                                    <span class="label label-success bg-black"><i class="fa fa-cogs size-15"></i></span>
+                                    CentOS server need a kernel update
+                                </li>
+
+                                <li>
+                                    <span class="label label-warning"><i class="fa fa-file-excel-o size-15"></i></span>
+                                    <a href="#">XCel finance report for 2014 released</a>
+                                </li>
+
+                                <li>
+                                    <span class="label label-danger"><i class="fa fa-bell-o size-15"></i></span>
+                                    Power grid is off. Moving to solar backup.
+                                </li>
+
+                                <li>
+                                    <span class="label label-warning"><i class="fa fa-comment size-15"></i></span>
+                                    <a href="#">24 New comments that need your approval</a>
+                                </li>
+
+                                <li>
+                                    <span class="label label-default"><i class="fa fa-briefcase size-15"></i></span>
+                                    No work for tomorrow &ndash; everyone is free!
+                                </li>
+
+                                <li>
+                                    <span class="label label-info"><i class="fa fa-shopping-cart size-15"></i></span>
+                                    You have new 3 orders unprocessed
+                                </li>
+
+                                <li>
+                                    <span class="label label-success"><i class="fa fa-bar-chart-o size-15"></i></span>
+                                    Generate the finance report for the previous year
+                                </li>
+
+                                <li>
+                                    <span class="label label-success bg-black"><i class="fa fa-cogs size-15"></i></span>
+                                    CentOS server need a kernel update
+                                </li>
+
+                                <li>
+                                    <span class="label label-warning"><i class="fa fa-file-excel-o size-15"></i></span>
+                                    <a href="#">XCel finance report for 2014 released</a>
+                                </li>
+
+                                <li>
+                                    <span class="label label-danger"><i class="fa fa-bell-o size-15"></i></span>
+                                    Power grid is off. Moving to solar backup.
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- /panel content -->
+
+                        <!-- panel footer -->
+                        <div class="panel-footer">
+
+                            <a href="#"><i class="fa fa-arrow-right text-muted"></i> View Activities Archive</a>
+
+                        </div>
+                        <!-- /panel footer -->
+
+                    </div>
+                    <!-- /PANEL -->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- /MIDDLE -->
+
+</div>
+
+
+
+
+<!-- JAVASCRIPT FILES -->
+<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+<script type="text/javascript" src="../assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../assets/js/app.js"></script>
+<script type="text/javascript">
+    /**
+     Chart.js
+     http://www.chartjs.org/
+     **/
+    loadScript(plugin_path + 'chart.chartjs/Chart.min.js', function() {
+
+        var lineChartCanvas = {
+            labels : ["January","February","March","April","May","June","July"],
+            datasets : [
+                {
+                    label: "My First dataset",
+                    fillColor : "rgba(220,220,220,0.2)",
+                    strokeColor : "rgba(220,220,220,1)",
+                    pointColor : "rgba(220,220,220,1)",
+                    pointStrokeColor : "#fff",
+                    pointHighlightFill : "#fff",
+                    pointHighlightStroke : "rgba(220,220,220,1)",
+                    data : [65,59,90,81,56,55,40]
+                },
+                {
+                    label: "My Second dataset",
+                    fillColor : "rgba(151,187,205,0.2)",
+                    strokeColor : "rgba(151,187,205,1)",
+                    pointColor : "rgba(151,187,205,1)",
+                    pointStrokeColor : "#fff",
+                    pointHighlightFill : "#fff",
+                    pointHighlightStroke : "rgba(151,187,205,1)",
+                    data : [28,48,40,19,96,27,100]
+                }
+            ]
+        };
+
+
+        // lineChartCanvas
+        var ctx = document.getElementById("lineChartCanvas").getContext("2d");
+        new Chart(ctx).Line(lineChartCanvas);
+
+    });
+
+    loadScript(plugin_path + "chart.flot/jquery.flot.min.js", function(){
+        loadScript(plugin_path + "chart.flot/jquery.flot.resize.min.js", function(){
+            loadScript(plugin_path + "chart.flot/jquery.flot.time.min.js", function(){
+                loadScript(plugin_path + "chart.flot/jquery.flot.fillbetween.min.js", function(){
+                    loadScript(plugin_path + "chart.flot/jquery.flot.orderBars.min.js", function(){
+                        loadScript(plugin_path + "chart.flot/jquery.flot.pie.min.js", function(){
+                            loadScript(plugin_path + "chart.flot/jquery.flot.tooltip.min.js", function(){
+
+                                // demo js script
+                                loadScript("assets/js/view/demo.graphs.flot.js");
+
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>
