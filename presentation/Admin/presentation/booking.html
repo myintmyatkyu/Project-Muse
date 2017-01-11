@@ -68,7 +68,7 @@
                                 <li><a href="daily-ticket.html">DAILY SALE</a></li>
                             </ul>
                         </li>
-                        <li><a href="cinema.html">BOOKING LIST</a></li>
+                        <li><a href="booking.html">BOOKING LIST</a></li>
                     </ul>
                 </li>
 
@@ -148,9 +148,212 @@
     <!--
         MIDDLE
     -->
-    <section id="middle">
+        <section id="middle">
 
-    </section>
+
+            <!-- page title -->
+            <header id="page-header">
+                <h1>BOOKING LIST</h1>
+                <ol class="breadcrumb">
+                    <li><a href="#">Booking list</a></li>
+                    <li class="active">Management</li>
+                </ol>
+            </header>
+            <!-- /page title -->
+
+
+            <div id="content" class="padding-20">
+
+                <!--
+                    PANEL CLASSES:
+                        panel-default
+                        panel-danger
+                        panel-warning
+                        panel-info
+                        panel-success
+
+                    INFO: 	panel collapse - stored on user localStorage (handled by app.js _panels() function).
+                            All pannels should have an unique ID or the panel collapse status will not be stored!
+                -->
+                <div id="panel-1" class="panel panel-default">
+                    <div class="panel-heading">
+							<span class="title elipsis">
+								<strong>Booking List</strong> <!-- panel title -->
+
+                                <a style="margin-left:10px;" href="booking-print.html" target="_blank" class="btn btn-3d btn-sm btn-green">
+                                        <i class="fa fa-print"></i>
+                                        <span>PRINT</span>
+                                    </a>
+                                <a style="margin-left:10px;"href="daily-ticket-sale.html" class="btn btn-3d btn-sm btn-info">
+                                        <i class="glyphicon glyphicon-import"></i>
+                                        <span>GET CSV</span>
+                                    </a>
+
+							</span>
+
+                        <!-- right options -->
+                        <ul class="options pull-right list-inline">
+                            <li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
+                            <li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
+                            <li><a href="#" class="opt panel_close" data-confirm-title="Confirm" data-confirm-message="Are you sure you want to remove this panel?" data-toggle="tooltip" title="Close" data-placement="bottom"><i class="fa fa-times"></i></a></li>
+                        </ul>
+                        <!-- /right options -->
+
+                    </div>
+
+                    <!-- panel content -->
+                    <div class="panel-body">
+
+                        <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
+                            <thead>
+                            <tr>
+                                <th>Booking ID</th>
+                                <th>Movie</th>
+                                <th>Customer Name</th>
+                                <th>Phone</th>
+                                <th>Plan</th>
+                                <th>Address</th>
+                                <th>Booking Type</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        098989889
+                                    </td>
+                                    <td>
+                                        Doctor Strange
+                                    </td>
+                                    <td>
+                                        John DOE
+                                    </td>
+                                    <td>
+                                        09-89889999
+                                    </td>
+                                    <td class="center">
+                                        Plan - 6
+                                    </td>
+                                    <td>
+                                        Corner of Yaw Min Gyi Street, 5 , Alan Pya Pagoda Road, Yangon,
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-danger btn-xs">Delivery</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        098989889
+                                    </td>
+                                    <td>
+                                        X MEN : APOCALYPSE
+                                    </td>
+                                    <td>
+                                        MARRY JANE
+                                    </td>
+                                    <td>
+                                        09-8988998
+                                    </td>
+                                    <td class="center">
+                                        Plan - 5
+                                    </td>
+                                    <td>
+                                        Corner of Yaw Min Gyi Street, 5 , Alan Pya Pagoda Road, Yangon,
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-info btn-xs">Purchase</a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        098989889
+                                    </td>
+                                    <td>
+                                        JUSTICE LEAGUE
+                                    </td>
+                                    <td>
+                                        CARA
+                                    </td>
+                                    <td>
+                                        09-8988998
+                                    </td>
+                                    <td class="center">
+                                        Plan - 4
+                                    </td>
+                                    <td>
+                                        Corner of Yaw Min Gyi Street, 5 , Alan Pya Pagoda Road, Yangon,
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-info btn-xs">Purchase</a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        098989889
+                                    </td>
+                                    <td>
+                                        LEGEND OF TARZAN
+                                    </td>
+                                    <td>
+                                        CLERK KENT
+                                    </td>
+                                    <td>
+                                        09-89889989
+                                    </td>
+                                    <td class="center">
+                                        Plan - 3
+                                    </td>
+                                    <td>
+                                        Corner of Yaw Min Gyi Street, 5 , Alan Pya Pagoda Road, Yangon,
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-danger btn-xs">Delivery</a>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        098989889
+                                    </td>
+                                    <td>
+                                        FANTASTIC BEAST
+                                    </td>
+                                    <td>
+                                        BRUCE WAYNE
+                                    </td>
+                                    <td>
+                                        09-8988998
+                                    </td>
+                                    <td class="center">
+                                        Plan - 2
+                                    </td>
+                                    <td>
+                                        Corner of Yaw Min Gyi Street, 5 , Alan Pya Pagoda Road, Yangon,
+                                    </td>
+                                    <td>
+                                        <a href="#" class="btn btn-danger btn-xs">Delivery</a>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- /panel content -->
+
+                    <!-- panel footer -->
+                    <div class="panel-footer">
+                    </div>
+                    <!-- /panel footer -->
+
+                </div>
+                <!-- /PANEL -->
+
+            </div>
+        </section>
+
 
     <!-- /MIDDLE -->
 
