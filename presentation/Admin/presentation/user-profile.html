@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Cinema Admin</title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css" />
+
+    <!-- CORE CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- THEME CSS -->
+    <link href="../assets/css/essentials.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+</head>
+<!--
+    .boxed = boxed version
+-->
+<body>
+
+
+<!-- WRAPPER -->
+<div id="wrapper">
+
+    <aside id="aside">
+
+        <nav id="sideNav"><!-- MAIN MENU -->
+            <ul class="nav nav-list">
+                <li><!-- dashboard -->
+                    <a class="dashboard" href="dashboard.html"><!-- warning - url used by default by ajax (if eneabled) -->
+                        <i class="main-icon fa fa-dashboard"></i> <span>DASHBOARD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-menu-arrow pull-right"></i>
+                        <i class="main-icon fa fa-pencil-square-o"></i> <span>MANAGE</span>
+                    </a>
+                    <ul><!-- submenus -->
+                        <li><a href="cinema.html">CINEMA</a></li>
+                        <li><a href="movie.html">MOVIE</a></li>
+                        <li><a href="movie-shedule.html">MOVIE SHEDULE</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-menu-arrow pull-right"></i>
+                        <i class="main-icon fa fa-pencil-square-o"></i> <span>SALE</span>
+                    </a>
+                    <ul><!-- submenus -->
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                TICKET SALE
+                            </a>
+                            <ul>
+                                <li><a href="ticket.html">TICKET LIST</a></li>
+                                <li><a href="daily-ticket.html">DAILY SALE</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="booking.html">BOOKING LIST</a></li>
+                    </ul>
+                </li>
+                <li><!-- dashboard -->
+                    <a class="dashboard" href="manager/index.html"><!-- warning - url used by default by ajax (if eneabled) -->
+                        <i class="main-icon fa fa-user-secret"></i> <span>MANAGER VIEW</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <span id="asidebg"><!-- aside fixed background --></span>
+    </aside>
+    <!-- /ASIDE -->
+
+
+    <!-- HEADER -->
+    <header id="header">
+
+        <!-- Mobile Button -->
+        <button id="mobileMenuBtn"></button>
+
+        <!-- Logo -->
+				<span class="logo pull-left">
+                    <logo style="font-size:20px; font-weight:bold;color:white;">CINEMA </logo>
+                    <!--<img src="assets/images/logo_light.png" alt="admin panel" height="35" />-->
+				</span>
+
+        <form method="get" action="page-search.html" class="search pull-left hidden-xs">
+            <input type="text" class="form-control" name="k" placeholder="Search for something..." />
+        </form>
+
+        <nav>
+
+            <!-- OPTIONS LIST -->
+            <ul class="nav pull-right">
+
+                <!-- USER OPTIONS -->
+                <li class="dropdown pull-left">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img class="user-avatar" alt="" src="../assets/images/noavatar.jpg" height="34" />
+								<span class="user-name">
+									<span class="hidden-xs">
+										John Doe <i class="fa fa-angle-down"></i>
+									</span>
+								</span>
+                    </a>
+                    <ul class="dropdown-menu hold-on-click">
+                        <li><!-- my calendar -->
+                            <a href="calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+                        </li>
+                        <li><!-- my inbox -->
+                            <a href="#"><i class="fa fa-envelope"></i> Inbox
+                                <span class="pull-right label label-default">0</span>
+                            </a>
+                        </li>
+                        <li><!-- settings -->
+                            <a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
+                        </li>
+
+                        <li class="divider"></li>
+
+                        <li><!-- lockscreen -->
+                            <a href="page-lock.html"><i class="fa fa-lock"></i> Lock Screen</a>
+                        </li>
+                        <li><!-- logout -->
+                            <a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- /USER OPTIONS -->
+
+            </ul>
+            <!-- /OPTIONS LIST -->
+
+        </nav>
+
+    </header>
+    <!-- /HEADER -->
+
+
+    <!--
+        MIDDLE
+    -->
+    <section>
+        <div class="container">
+
+            <!-- RIGHT -->
+            <div class="col-lg-9 col-md-9 col-sm-8 col-lg-push-3 col-md-push-3 col-sm-push-4 margin-bottom-80">
+
+                <ul class="nav nav-tabs nav-top-border">
+                    <li class="active"><a href="#privacy" data-toggle="tab">CURRENT BOOKING</a></li>
+                    <li><a href="#info" data-toggle="tab">PERSONAL INFO</a></li>
+                    <li><a href="#avatar" data-toggle="tab">AVATAR</a></li>
+                    <li><a href="#password" data-toggle="tab">PASSWORD</a></li>
+                </ul>
+
+                <div class="tab-content margin-top-20">
+
+                    <!-- PRIVACY TAB -->
+                    <div class="tab-pane fade in active" id="privacy">
+
+                        <form action="#" method="post">
+                            <div class="sky-form">
+
+                                <table class="table table-bordered table-striped">
+                                    <tbody>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</td>
+                                        <td>
+                                            <div class="inline-group">
+                                                <label class="radio nomargin-top nomargin-bottom">
+                                                    <input type="radio" name="radioOption" checked=""><i></i> Yes
+                                                </label>
+
+                                                <label class="radio nomargin-top nomargin-bottom">
+                                                    <input type="radio" name="radioOption" checked=""><i></i> No
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</td>
+                                        <td>
+                                            <label class="checkbox nomargin">
+                                                <input type="checkbox" name="checkbox" checked=""><i></i> Yes
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</td>
+                                        <td>
+                                            <label class="checkbox nomargin">
+                                                <input type="checkbox" name="checkbox" checked=""><i></i> Yes
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</td>
+                                        <td>
+                                            <label class="checkbox nomargin">
+                                                <input type="checkbox" name="checkbox" checked=""><i></i> Yes
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                            <div class="margin-top-10">
+                                <a href="#" class="btn btn-primary"><i class="fa fa-check"></i> Save Changes </a>
+                                <a href="#" class="btn btn-default">Cancel </a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <!-- /PRIVACY TAB -->
+
+                    <!-- PERSONAL INFO TAB -->
+                    <div class="tab-pane fade" id="info">
+                        <form role="form" action="#" method="post">
+                            <div class="form-group">
+                                <label class="control-label">First Name</label>
+                                <input type="text" placeholder="Felicia" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Last Name</label>
+                                <input type="text" placeholder="Doe" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Mobile Number</label>
+                                <input type="text" placeholder="+1800-1234-657" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Interests</label>
+                                <input type="text" placeholder="Development, C++, etc." class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Occupation</label>
+                                <input type="text" placeholder="Webdeveloper" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">About</label>
+                                <textarea class="form-control" rows="3" placeholder="About Me..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Website Url</label>
+                                <input type="text" placeholder="http://www.yourwebsite.com" class="form-control">
+                            </div>
+                            <div class="margiv-top10">
+                                <a href="#" class="btn btn-primary"><i class="fa fa-check"></i> Save Changes </a>
+                                <a href="#" class="btn btn-default">Cancel </a>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /PERSONAL INFO TAB -->
+
+                    <!-- AVATAR TAB -->
+                    <div class="tab-pane fade" id="avatar">
+
+                        <form class="clearfix" action="#" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+
+                                <div class="row">
+
+                                    <div class="col-md-3 col-sm-4">
+
+                                        <div class="thumbnail">
+                                            <img class="img-responsive" src="assets/images/demo/people/460x700/8-min.jpg" alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-md-9 col-sm-8">
+
+                                        <div class="sky-form nomargin">
+                                            <label class="label">Select File</label>
+                                            <label for="file" class="input input-file">
+                                                <div class="button">
+                                                    <input type="file" id="file" onchange="this.parentNode.nextSibling.value = this.value">Browse
+                                                </div><input type="text" readonly>
+                                            </label>
+                                        </div>
+
+                                        <a href="#" class="btn btn-danger btn-xs noradius"><i class="fa fa-times"></i> Remove Avatar</a>
+
+                                        <div class="clearfix margin-top-20">
+                                            <span class="label label-warning">NOTE! </span>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt laoreet!
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="margiv-top10">
+                                <a href="#" class="btn btn-primary">Save Changes </a>
+                                <a href="#" class="btn btn-default">Cancel </a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <!-- /AVATAR TAB -->
+
+                    <!-- PASSWORD TAB -->
+                    <div class="tab-pane fade" id="password">
+
+                        <form action="#" method="post">
+
+                            <div class="form-group">
+                                <label class="control-label">Current Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">New Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Re-type New Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+
+                            <div class="margiv-top10">
+                                <a href="#" class="btn btn-primary"><i class="fa fa-check"></i> Change Password</a>
+                                <a href="#" class="btn btn-default">Cancel </a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <!-- /PASSWORD TAB -->
+
+
+
+                </div>
+
+            </div>
+
+
+            <!-- LEFT -->
+            <div class="col-lg-3 col-md-3 col-sm-4 col-lg-pull-9 col-md-pull-9 col-sm-pull-8">
+
+                <div class="thumbnail text-center">
+                    <img src="assets/images/demo/people/460x700/8-min.jpg" alt="" />
+                    <h2 class="size-18 margin-top-10 margin-bottom-0">Felica Doe</h2>
+                    <h3 class="size-11 margin-top-0 margin-bottom-10 text-muted">DEVELOPER</h3>
+                </div>
+
+                <!-- completed -->
+                <div class="margin-bottom-30">
+                    <label>88% completed profile</label>
+                    <div class="progress progress-xxs">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%; min-width: 2em;"></div>
+                    </div>
+                </div>
+                <!-- /completed -->
+
+                <!-- SIDE NAV -->
+                <!-- /SIDE NAV -->
+
+
+                <!-- info -->
+                <div class="row box-gradient box-blue">
+                    <div class="col-xs-12 col-sm-12">
+                        <i class="fa fa-child fa-4x"></i>
+                        <h2 class="countTo font-raleway" data-speed="3000">8165</h2>
+                        <p>HAPPY CUSTOMERS</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- /MIDDLE -->
+
+</div>
+
+
+
+
+<!-- JAVASCRIPT FILES -->
+<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+<script type="text/javascript" src="../assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../assets/js/app.js"></script>
+</body>
+</html>

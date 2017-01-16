@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Cinema Admin</title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css" />
+
+    <!-- CORE CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- THEME CSS -->
+    <link href="../assets/css/essentials.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+</head>
+<!--
+    .boxed = boxed version
+-->
+<body>
+
+
+<!-- WRAPPER -->
+<div id="wrapper">
+
+    <aside id="aside">
+
+        <nav id="sideNav"><!-- MAIN MENU -->
+            <ul class="nav nav-list">
+                <li><!-- dashboard -->
+                    <a class="dashboard" href="index.html"><!-- warning - url used by default by ajax (if eneabled) -->
+                        <i class="main-icon fa fa-dashboard"></i> <span>DASHBOARD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-menu-arrow pull-right"></i>
+                        <i class="main-icon fa fa-pencil-square-o"></i> <span>CHECK CINEMA</span>
+                    </a>
+                    <ul><!-- submenus -->
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                CINEMA 1
+                            </a>
+                            <ul>
+                                <li><a href="sale-ticket.html">SALE TICKET</a></li>
+                                <li><a href="booking.html">BOOKING LIST</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                CINEMA 2
+                            </a>
+                            <ul>
+                                <li><a href="sale-ticket.html">SALE TICKET</a></li>
+                                <li><a href="booking.html">BOOKING LIST</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                CINEMA 3
+                            </a>
+                            <ul>
+                                <li><a href="sale-ticket.html">SALE TICKET</a></li>
+                                <li><a href="booking.html">BOOKING LIST</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+        <span id="asidebg"><!-- aside fixed background --></span>
+    </aside>
+
+    <!-- /ASIDE -->
+
+
+    <!-- HEADER -->
+    <header id="header">
+
+        <!-- Mobile Button -->
+        <button id="mobileMenuBtn"></button>
+
+        <!-- Logo -->
+				<span class="logo pull-left">
+                    <logo style="font-size:20px; font-weight:bold;color:white;">MANAGER VIEW </logo>
+                    <!--<img src="assets/images/logo_light.png" alt="admin panel" height="35" />-->
+				</span>
+
+        <form method="get" action="page-search.html" class="search pull-left hidden-xs">
+            <input type="text" class="form-control" name="k" placeholder="Search for something..." />
+        </form>
+
+        <nav>
+
+            <!-- OPTIONS LIST -->
+            <ul class="nav pull-right">
+
+                <!-- USER OPTIONS -->
+                <li class="dropdown pull-left">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                        <img class="user-avatar" alt="" src="../assets/images/noavatar.jpg" height="34" />
+								<span class="user-name">
+									<span class="hidden-xs">
+										John Doe <i class="fa fa-angle-down"></i>
+									</span>
+								</span>
+                    </a>
+                    <ul class="dropdown-menu hold-on-click">
+                        <li><!-- my calendar -->
+                            <a href="calendar.html"><i class="fa fa-calendar"></i> Calendar</a>
+                        </li>
+                        <li><!-- my inbox -->
+                            <a href="#"><i class="fa fa-envelope"></i> Inbox
+                                <span class="pull-right label label-default">0</span>
+                            </a>
+                        </li>
+                        <li><!-- settings -->
+                            <a href="page-user-profile.html"><i class="fa fa-cogs"></i> Settings</a>
+                        </li>
+
+                        <li class="divider"></li>
+
+                        <li><!-- lockscreen -->
+                            <a href="page-lock.html"><i class="fa fa-lock"></i> Lock Screen</a>
+                        </li>
+                        <li><!-- logout -->
+                            <a href="page-login.html"><i class="fa fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- /USER OPTIONS -->
+
+            </ul>
+            <!-- /OPTIONS LIST -->
+
+        </nav>
+
+    </header>
+    <!-- /HEADER -->
+
+
+    <!--
+        MIDDLE
+    -->
+    <section id="middle">
+        <div id="content" class="dashboard padding-20">
+            <!-- BOXES -->
+            <div class="row">
+
+                <!-- Feedback Box -->
+                <div class="col-md-4 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box danger"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4><a href="#">Cinema 1 (Total Ticket)</a></h4>
+                            <small class="block">300 Sold Out Today</small>
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box info"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4><a href="#">Cinema 2 (Total Ticket)</a></h4>
+                            <small class="block">400 Sold Out Today</small>
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+                <div class="col-md-4 col-sm-6">
+
+                    <!-- BOX -->
+                    <div class="box warning"><!-- default, danger, warning, info, success -->
+
+                        <div class="box-title"><!-- add .noborder class if box-body is removed -->
+                            <h4><a href="#">Cinema 4 (Total Ticket)</a></h4>
+                            <small class="block">500 Sold Out Today</small>
+                            <i class="fa fa-comments"></i>
+                        </div>
+
+                        <div class="box-body text-center">
+									<span class="sparkline" data-plugin-options='{"type":"bar","barColor":"#ffffff","height":"35px","width":"100%","zeroAxis":"false","barSpacing":"2"}'>
+										331,265,456,411,367,319,402,312,300,312,283,384,372,269,402,319,416,355,416,371,423,259,361,312,269,402,327
+									</span>
+                        </div>
+
+                    </div>
+                    <!-- /BOX -->
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+
+                            <!-- FORUM 1 -->
+                            <div class="table-responsive nomargin">
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th><i class="fa fa-building pull-right hidden-xs"></i> CINEMA NAME</th>
+                                        <th><i class="fa fa-youtube-play pull-right hidden-xs"></i> TODAY MOVIE</th>
+                                        <th><i class="glyphicon glyphicon-envelope pull-right hidden-xs"></i> SOLD OUT</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>CINEMA 1</td>
+                                        <td>DOCTOR STRANGE, AVENGERS, X-MEN</td>
+                                        <td>300 Ticket</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CINEMA 2</td>
+                                        <td>FAST & FURIOUS, RAILROAD TIGER, GREAT WALL</td>
+                                        <td>400 Ticket</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CINEMA 3</td>
+                                        <td>STAR WAR, GUARDIAN OF GALAXY,</td>
+                                        <td>100 Ticket</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /BOXES -->
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div id="panel-chartjs-1" class="panel panel-default">
+
+                        <div class="panel-heading">
+
+									<span class="elipsis"><!-- panel title -->
+										<strong>Customer Growth</strong>
+									</span>
+
+                            <!-- right options -->
+                            <ul class="options pull-right list-inline">
+                                <li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
+                                <li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
+                                <li><a href="#" class="opt panel_close" data-confirm-title="Confirm" data-confirm-message="Are you sure you want to remove this panel?" data-toggle="tooltip" title="Close" data-placement="bottom"><i class="fa fa-times"></i></a></li>
+                            </ul>
+                            <!-- /right options -->
+
+                        </div>
+
+                        <!-- panel content -->
+                        <div class="panel-body">
+
+                            <canvas class="chartjs fullwidth height-300" id="lineChartCanvas" width="547" height="300"></canvas>
+
+                        </div>
+                        <!-- /panel content -->
+
+                        <!-- panel footer -->
+                        <div class="panel-footer"></div>
+                        <!-- /panel footer -->
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="panel-graphs-flot-1" class="panel panel-default">
+
+                        <div class="panel-heading">
+
+									<span class="elipsis"><!-- panel title -->
+										<strong>Cinema Income Growth Graph</strong>
+									</span>
+
+                            <!-- right options -->
+                            <ul class="options pull-right list-inline">
+                                <li><a href="#" class="opt panel_colapse" data-toggle="tooltip" title="Colapse" data-placement="bottom"></a></li>
+                                <li><a href="#" class="opt panel_fullscreen hidden-xs" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"><i class="fa fa-expand"></i></a></li>
+                                <li><a href="#" class="opt panel_close" data-confirm-title="Confirm" data-confirm-message="Are you sure you want to remove this panel?" data-toggle="tooltip" title="Close" data-placement="bottom"><i class="fa fa-times"></i></a></li>
+                            </ul>
+                            <!-- /right options -->
+
+
+                        </div>
+
+                        <!-- panel content -->
+                        <div class="panel-body nopadding">
+
+                            <div id="flot-pie" class="flot-chart"><!-- FLOT CONTAINER --></div>
+
+                        </div>
+                        <!-- /panel content -->
+                        <div class="panel-footer" style="height:110px;">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /MIDDLE -->
+
+</div>
+
+
+
+
+<!-- JAVASCRIPT FILES -->
+<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+<script type="text/javascript" src="../assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="../assets/js/app.js"></script>
+<script type="text/javascript">
+    /**
+     Chart.js
+     http://www.chartjs.org/
+     **/
+    loadScript(plugin_path + 'chart.chartjs/Chart.min.js', function() {
+
+        var lineChartCanvas = {
+            labels : ["January","February","March","April","May","June","July"],
+            datasets : [
+                {
+                    label: "My First dataset",
+                    fillColor : "rgba(220,220,220,0.2)",
+                    strokeColor : "rgba(220,220,220,1)",
+                    pointColor : "rgba(220,220,220,1)",
+                    pointStrokeColor : "#fff",
+                    pointHighlightFill : "#fff",
+                    pointHighlightStroke : "rgba(220,220,220,1)",
+                    data : [65,59,90,81,56,55,40]
+                },
+                {
+                    label: "My Second dataset",
+                    fillColor : "rgba(151,187,205,0.2)",
+                    strokeColor : "rgba(151,187,205,1)",
+                    pointColor : "rgba(151,187,205,1)",
+                    pointStrokeColor : "#fff",
+                    pointHighlightFill : "#fff",
+                    pointHighlightStroke : "rgba(151,187,205,1)",
+                    data : [28,48,40,19,96,27,100]
+                }
+            ]
+        };
+
+
+        // lineChartCanvas
+        var ctx = document.getElementById("lineChartCanvas").getContext("2d");
+        new Chart(ctx).Line(lineChartCanvas);
+
+    });
+
+    loadScript(plugin_path + "chart.flot/jquery.flot.min.js", function(){
+        loadScript(plugin_path + "chart.flot/jquery.flot.resize.min.js", function(){
+            loadScript(plugin_path + "chart.flot/jquery.flot.time.min.js", function(){
+                loadScript(plugin_path + "chart.flot/jquery.flot.fillbetween.min.js", function(){
+                    loadScript(plugin_path + "chart.flot/jquery.flot.orderBars.min.js", function(){
+                        loadScript(plugin_path + "chart.flot/jquery.flot.pie.min.js", function(){
+                            loadScript(plugin_path + "chart.flot/jquery.flot.tooltip.min.js", function(){
+
+                                // demo js script
+                                loadScript("assets/js/view/demo.graphs.flot.js");
+
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>
